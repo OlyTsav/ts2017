@@ -13,7 +13,7 @@ array(
 ?>
 <?php
 add_theme_support( 'post-thumbnails' );
-add_image_size( 'category-thumb', 320, 9999 ); //300 pixels wide (and unlimited height)
+add_image_size( 'category-thumb', 300, 9999 ); //300 pixels wide (and unlimited height)
 if ( function_exists('register_sidebar') ){
     register_sidebar(array(
         'name' => 'page-sidebar',

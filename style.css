@@ -2,13 +2,13 @@
 /* CSS Document */
 /*
 
-Theme Name: Phuk Ya Thai Food
+Theme Name: TylerSavin 2017
 Author: Tyler Savin
 Description: Theme design and coded by Tyler Savin
 Version: 1
 License: @copy; 2015 Tyler Savin
 Tags: Bootstrap,custom,frontpage,minimal,jquery,easing,navigation
-Text Domain: phukyathaifood
+Text Domain: tylersavin2017
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
@@ -19,18 +19,29 @@ TABLE OF CONTENTS
 COLORS
 
 FONTS
-font-family:'futura-pt', sans-serif;
-font-family: "coquette";
+font-family: Lato-Regular;
+font-family: Lato-Light;
 */
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(fonts/Lato-Light.ttf);
+}
 
 body{
 	font-size:16px;
-  	color: rgba(34,34,34,1);
+	  color: rgba(34,34,34,1);
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: inherit;
   text-rendering: optimizelegibility;
+  font-family: 'Lato', sans-serif;
 }
 
 a:active,a:focus{
@@ -58,4 +69,159 @@ section{
  
 .clearfix{
   	*zoom: 1;
+}
+
+/* HEADER */
+
+header{
+	padding-top:55px;
+}
+
+.header-name{
+	font-family: Lato-Regular;
+	font-size:20px;
+	display:inline-block;
+	margin-bottom:3px;
+}
+
+.header-social{
+	display: inline-block;
+}
+
+.header-social{
+	background-color:#000;
+	padding:0px 10px;
+}
+
+.header-social ul li{
+	display:inline;
+}
+
+.header-social ul li a{
+	display:inline-block;
+	color:#fff;
+	padding:10px 5px;
+}
+
+.header-social ul li a:hover{
+	color:#00FFCC;
+}
+
+#menu-headermain{
+	float:right;
+}
+
+#menu-headermain li{
+	font-family: Lato-Regular;
+	text-transform:uppercase;
+	display:inline-block;
+}
+
+#menu-headermain li a{
+	font-size:16px;
+	line-height:16px;
+	padding:10px 15px;
+	color:#000;
+}
+
+#menu-headermain li a:hover{
+	color:#00FFCC;
+	text-decoration: none;
+}
+
+/* FRONTPAGE */
+
+#hero-bio{
+	font-family: Lato-Regular;
+	text-align:center;
+	padding:125px 0px;
+}
+
+.hero-location{
+	display:inline-block;
+	padding-top:15px;
+	font-size: 21px;
+	font-family: Lato-Light;
+}
+
+.hero-location i{
+	font-size:21px;
+	color:#00FFCC;
+	margin-right:7px;
+}
+
+/* PROJECT TILES */
+
+.project-tile{
+	position:relative;
+	margin-bottom:30px;
+}
+
+.project-image{
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 17%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 17%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 17%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.project-image img{
+	position:relative;
+	z-index:1;
+	width:100%;
+	height:auto;
+	opacity:.7;
+	filter: grayscale(1) ;
+    -webkit-filter: grayscale(1) ;
+	-moz-filter: grayscale(1) ;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+
+.project-tile:hover > .project-image img{
+	opacity:1;
+	filter: grayscale(0) ;
+    -webkit-filter: grayscale(0) ;
+	-moz-filter: grayscale(0) ;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+
+.project-title{
+	width:100%;
+	position:absolute;
+	z-index:10;
+	font-family: Lato-Light;
+	font-size: 36px;
+	line-height:36px;
+	text-align: center;
+	color:#fff;
+	top:66%;
+	left:0;
+}
+
+.project-role{
+	font-family: Lato-Light;
+	font-size: 16px;
+	line-height:16px;
+	text-transform: uppercase;
+	color:#fff;
+}
+
+.company-logo{
+	display:block;
+	text-align:center;
+	width:100%;
+	margin-top:7px;
+}
+
+.company-logo img{
+	max-width:150px;
+	max-height:32px;
+	height:auto;
 }
