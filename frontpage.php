@@ -13,9 +13,9 @@ Template Name: Frontpage
         <section id="work-grid">
             <div class="container-fluid">
                 <div class="row">
-                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-4 project-tile">
+                    <div id="boeing-itm" class="col-xs-12 project-tile">
                         <div class="project-image">
-                            <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/surface_tablet.jpeg" />
+                            <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/MShero.jpg" />
                             <span class="tile-gradient"></span>
                         </div>
                     <span class="project-title">Service Desk<br /><!--<span class="project-role">Designer &amp; Editor (2016-17)</span>-->
@@ -23,7 +23,7 @@ Template Name: Frontpage
                     </span>
                     </div>
 
-                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-4 project-tile">
+                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-6 project-tile">
                         <div class="project-image">
                             <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/mscollab.jpg" />
                         </div>
@@ -32,7 +32,7 @@ Template Name: Frontpage
                     </span>
                     </div>
 
-                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-4 project-tile">
+                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-6 project-tile">
                         <div class="project-image">
                             <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/boeing_background.jpg" />
                         </div>
@@ -68,25 +68,16 @@ Template Name: Frontpage
                     </span>
                     </div>
 
-                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-4 project-tile">
+                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-6 project-tile">
                         <div class="project-image">
-                            <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/boeing_background.jpg" />
+                            <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/internaproom.jpg" />
                         </div>
                     <span class="project-title">INAP Heuristic Eval<br /><!--<span class="project-role">Designer &amp; Editor (2016-17)</span>-->
-                    <span class="company-logo"><img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/logo_rev_boeing.png" /></span>
+                    <span class="company-logo"><img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/INAP_Logo_White.png" /></span>
                     </span>
                     </div>
 
-                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-4 project-tile">
-                        <div class="project-image">
-                            <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/boeing_background.jpg" />
-                        </div>
-                    <span class="project-title">ESXP Framework<br /><!--<span class="project-role">Designer &amp; Editor (2016-17)</span>-->
-                    <span class="company-logo"><img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/microsoft_logo.png" /></span>
-                    </span>
-                    </div>
-
-                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-4 project-tile">
+                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-6 project-tile">
                         <div class="project-image">
                             <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/handpicked.jpg" />
                         </div>
@@ -95,32 +86,6 @@ Template Name: Frontpage
                     </span>
                     </div>
 
-                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-4 project-tile">
-                        <div class="project-image">
-                            <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/boeing_background.jpg" />
-                        </div>
-                    <span class="project-title">Fiths.js<br /><!--<span class="project-role">Designer &amp; Editor (2016-17)</span>-->
-                    <span class="company-logo"><img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/logo_rev_boeing.png" /></span>
-                    </span>
-                    </div>
-
-                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-4 project-tile">
-                        <div class="project-image">
-                            <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/boeing_background.jpg" />
-                        </div>
-                    <span class="project-title">Guidacent<br /><!--<span class="project-role">Designer &amp; Editor (2016-17)</span>-->
-                    <span class="company-logo"><img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/logo_rev_boeing.png" /></span>
-                    </span>
-                    </div>
-
-                    <div id="boeing-itm" class="col-xs-12 col-sm-6 col-md-4 project-tile">
-                        <div class="project-image">
-                            <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/boeing_background.jpg" />
-                        </div>
-                    <span class="project-title">Myself<br /><!--<span class="project-role">Designer &amp; Editor (2016-17)</span>-->
-                    <span class="company-logo"><img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/logo_rev_boeing.png" /></span>
-                    </span>
-                    </div>
                 </div>
             </div>
         </section>

@@ -27,10 +27,10 @@
 <body>
 
 <header>
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-xs-6 col-sm-3">
-        <span class="header-name">Tyler Savin</span><br />
+        <span class="header-name">Tyler Savin</span>
         <span class="header-social">
             <ul>
                 <li><a href="https://github.com/OlyTsav"><i class="fa fa-github" aria-hidden="true"></i></a></li>
