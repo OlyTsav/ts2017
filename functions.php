@@ -12,6 +12,21 @@ array(
 }
 ?>
 <?php
+
+function my_custom_upload_mimes($mimes = array()) {
+
+    // Add a key and value for the CSV file type
+    $mimes['png'] = "image/png";
+
+    return $mimes;
+}
+
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
+
+add_action('upload_mimes', 'my_custom_upload_mimes');
+
 add_theme_support( 'post-thumbnails' );
 add_image_size( 'category-thumb', 300, 9999 ); //300 pixels wide (and unlimited height)
 
@@ -67,6 +82,13 @@ function custom_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 function new_excerpt_more( $more ) {
 	return '...<div style="clear:both;"></div><a class="read-more" href="'. get_permalink( get_the_ID() ) . '">Read More &raquo;</a>';
+}
+add_filter( 'post_thumbnail_html', 'remove_width_attribute', 10 );
+add_filter( 'image_send_to_editor', 'remove_width_attribute', 10 );
+
+function remove_width_attribute( $html ) {
+   $html = preg_replace( '/(width|height)="\d*"\s/', "", $html );
+   return $html;
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
 function myplugin_settings() {  

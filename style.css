@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
 	font-size:48px;
-	font-family: Lato-Light;
+	font-family: Roboto-Light;
 	
 }
 
@@ -227,6 +227,7 @@ nav{
 }
 
 #hero-bio h1{
+	font-family: Lato-Light;
 	font-size: 72px;
 }
 
@@ -245,6 +246,117 @@ nav{
 
 .variableLike{
 	font-weight: 700;
+}
+
+.section-title{
+	text-align: center;
+	margin:0 auto;
+}
+
+.section-intro{
+	font-family: Roboto-Regular;
+	font-size:18px;
+	line-height: 21px;
+	text-align: center;
+	padding:40px 0px 60px;
+}
+
+#teaching .project-tile-content{
+	border:1px solid #000;
+}
+
+#teaching .project-tile{
+	margin-bottom:40px;
+}
+
+#teaching .project-tile-title{
+	font-family: Roboto-Light;
+	font-size:20px;
+	line-height:20px;
+}
+
+#teaching .project-tile-content hr{
+	margin-top:20px;
+	margin-bottom:10px;
+	border-top:1px solid #000;
+}
+
+#teaching .tile-company-name{
+	font-family: Roboto-Bold;
+	color:#000;
+	font-size:14px;
+}
+
+.class-tiles{
+	margin-top:60px;
+}
+
+.cta-link{
+	display: block;
+	text-align:center;
+	padding:21px 0px 31px;
+}
+
+.cta-link a{
+	font-family: Roboto-Bold;
+	color:#4834D4;
+	text-transform: uppercase;
+}
+
+.lw-divider{
+	padding:60px 0px 30px;
+}
+
+.lw-spacer{
+	border-top:1px solid #ccc;
+}
+
+.lwlogo{
+	text-align: center;
+	border-top:1px solid #ccc;
+}
+
+.lwlogo img{
+	margin-top:-13%;
+	background-color: #fff;
+	width:85%;
+	padding:0px 15px;
+	height:auto;
+}
+
+.seminars-cta{
+	text-align:center;
+	padding:60px 0px;
+	border-top:1px solid #ccc;
+}
+
+.seminars-cta span{
+	display:block;
+}
+
+.seminars-title{
+	font-family: Roboto-Bold;
+	font-size:24px;
+}
+
+.seminars-desc{
+	font-size:18px;
+	padding-bottom:20px;
+}
+
+.btn-primary{
+	font-family: Roboto-Bold;
+	background-color:#4834D4;
+	color:#fff;
+	padding:5px 30px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+	text-transform: uppercase;
+}
+
+.btn-primary:hover{
+	background-color:#4834D4;
+	opacity:.9;
 }
 
 /* PROJECT TILES */
@@ -378,6 +490,14 @@ p.project-tile-p{
 	max-width:100%;
 	height:auto;
 	margin-bottom:31px;
+	/*padding:4px;
+	background: -moz-linear-gradient(top,  rgba(236,240,241,1) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,240,241,1)), color-stop(100%,rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(top,  rgba(236,240,241,1) 0%,rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(top,  rgba(236,240,241,1) 0%,rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top,  rgba(236,240,241,1) 0%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(to bottom,  rgba(236,240,241,1) 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecf0f1', endColorstr='#00ffffff',GradientType=0 );*/
 }
 
 /*.project-content p,.project-content h2, .project-content h3,.project-content h4{
@@ -396,7 +516,7 @@ p.project-tile-p{
 	clear: both;
 }
 
-.size-full{
+.size-large,.size-full{
 	width:100%;
 	height:auto;
 }
@@ -444,4 +564,17 @@ p.project-tile-p{
 
 .page-widget ul.menu li.current-menu-item > a:hover{
 	text-decoration: none;
+}
+
+/* FOOTER */
+
+footer{
+	background-color: #4834D4;
+	font-family: Roboto-Regular;
+	color:#fff;
+}
+
+footer p{
+	text-align:center;
+	padding:20px 0px 10px;
 }

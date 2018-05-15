@@ -2,7 +2,7 @@
 
 <footer>
 <div class="container">
-<p>Made by hand on Earth, Milky Way | Tyler Savin | <script>document.write(new Date().getFullYear())</script></p>
+<p>Made by hand on Earth, Milky Way Galaxy | Tyler Savin | After <script>document.write(new Date().getFullYear())</script> rotations around the star, Sun</p>
 </div>
 </footer>
 
