@@ -24,10 +24,10 @@ Template Name: Frontpage
                         <p class="project-tile-p">Service Desk is a Microsoft tool used by all customer service experts to create, manage, and work support cases.</p>
                         <span class="project-role">
                             <ul>
-                                <li><a href="#">#motion</a></li>
-                                <li><a href="#">#prototype</a></li>
-                                <li><a href="#">#UX</a></li>
-                                <li><a href="#">#code</a></li>
+                                <li>#motion</li>
+                                <li>#prototype</li>
+                                <li>#UX</li>
+                                <li>#code</li>
                             </ul>
                         </span>
                         </div><!--project-tile-content-->
@@ -40,13 +40,13 @@ Template Name: Frontpage
                     <div class="project-tile-content">
                         <span class="tile-company-name">Microsoft | 2018</span>
                         <span class="project-tile-title">Service Desk SDK</span>
-                        <p class="project-tile-p">Service Desk SDK is a documentation site used for development of Service Desk. It contains code samples, design samples, and API information.</p>
+                        <p class="project-tile-p">Service Desk SDK is a documentation site used for development of the Service Desk web application.</p>
                         <span class="project-role">
                             <ul>
-                                <li><a href="#">#IA</a></li>
-                                <li><a href="#">#research</a></li>
-                                <li><a href="#">#UX</a></li>
-                                <li><a href="#">#UI</a></li>
+                                <li>#IA</a></li>
+                                <li>#research</li>
+                                <li>#UX</li>
+                                <li>#UI</li>
                             </ul>
                         </span>
                         </div><!--project-tile-content-->
@@ -59,13 +59,13 @@ Template Name: Frontpage
                     <div class="project-tile-content">
                         <span class="tile-company-name">Boeing | 2017</span>
                         <span class="project-tile-title">737 MAX ITM</span>
-                        <p class="project-tile-p">The 737 MAX Interactive Training Manual was designed to allow pilots in training to study functions of the various systems on an airplane.</p>
+                        <p class="project-tile-p">The 737 MAX Interactive Training Manual was designed to allow pilots in training to study functions of the aircraft.</p>
                         <span class="project-role">
                             <ul>
-                                <li><a href="#">#iOS</a></li>
-                                <li><a href="#">#code</a></li>
-                                <li><a href="#">#UX</a></li>
-                                <li><a href="#">#iBooks</a></li>
+                                <li>#iOS</li>
+                                <li>#code</li>
+                                <li>#UX</li>
+                                <li>#iBooks</li>
                             </ul>
                         </span>
                         </div><!--project-tile-content-->
@@ -78,12 +78,12 @@ Template Name: Frontpage
                     <div class="project-tile-content">
                         <span class="tile-company-name">Allen Institute | 2017</span>
                         <span class="project-tile-title">Sharepoint Intranet</span>
-                        <p class="project-tile-p">Sharepoint engagements like this are a great example of taking feedback from discovery sessions, and building really useful applications.</p>
+                        <p class="project-tile-p">Allen Institute's Sharepoint site is an integral part of their internal communications, it just needed a some UX design.</p>
                         <span class="project-role">
                             <ul>
-                                <li><a href="#">#research</a></li>
-                                <li><a href="#">#sketching</a></li>
-                                <li><a href="#">#sharepoint</a></li>
+                                <li>#research</li>
+                                <li>#sketching</li>
+                                <li>#sharepoint</li>
                             </ul>
                         </span>
                         </div><!--project-tile-content-->
@@ -96,12 +96,12 @@ Template Name: Frontpage
                     <div class="project-tile-content">
                         <span class="tile-company-name">Equity Pad LLC &amp; Nearby | 2018</span>
                         <span class="project-tile-title">Beacons &amp; Google Nearby</span>
-                        <p class="project-tile-p">This app provides Bluetooth beacons that transmit Eddystone URLs through push notifications using the Google Nearby technology.</p>
+                        <p class="project-tile-p">Using Google Nearby technology this app sends Eddystone URLs through Bluetooth push notifications.</p>
                         <span class="project-role">
                             <ul>
-                                <li><a href="#">#nearby</a></li>
-                                <li><a href="#">#UX</a></li>
-                                <li><a href="#">#prototype</a></li>
+                                <li>#nearby</li>
+                                <li>#UX</li>
+                                <li>#prototype</li>
                             </ul>
                         </span>
                         </div><!--project-tile-content-->
@@ -117,27 +117,27 @@ Template Name: Frontpage
                         <p class="project-tile-p">Simple prototype showing how we can turn high volumes of comments into useful insight on public forums.</p>
                         <span class="project-role">
                             <ul>
-                                <li><a href="#">#HCI</a></li>
-                                <li><a href="#">#prototype</a></li>
-                                <li><a href="#">#UX</a></li>
+                                <li>#HCI</li>
+                                <li>#prototype</li>
+                                <li>#UX</li>
                             </ul>
                         </span>
                         </div><!--project-tile-content-->
                     </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-4 project-tile" onclick="window.location.href = ('http://tylersavin.com/frontpage/hci-for-youtube-comments/');">
+                    <div class="col-xs-12 col-sm-6 col-md-4 project-tile" onclick="window.location.href = ('http://tylersavin.com/gmail-meet-calendar-on-android/');">
                         <div class="project-image">
                             <img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/google-gmail-go.jpg" />
                         </div>
                     <div class="project-tile-content">
                         <span class="tile-company-name">Independent | 2018</span>
                         <span class="project-tile-title">Gmail Meet Calendar</span>
-                        <p class="project-tile-p">I prototyped a more user friendly experience for scheduling meetings using Calendar and autofilling information from a Gmail thread.</p>
+                        <p class="project-tile-p">A more user friendly experience for scheduling meetings using Calendar and autofilling forms from a Gmail thread.</p>
                         <span class="project-role">
                             <ul>
-                                <li><a href="#">#HCI</a></li>
-                                <li><a href="#">#prototype</a></li>
-                                <li><a href="#">#UX</a></li>
+                                <li>#HCI</li>
+                                <li>#prototype</li>
+                                <li>#UX</li>
                             </ul>
                         </span>
                         </div><!--project-tile-content-->
@@ -150,12 +150,12 @@ Template Name: Frontpage
                     <div class="project-tile-content">
                         <span class="tile-company-name">Quakely.io | 2018</span>
                         <span class="project-tile-title">Earthquake Awareness</span>
-                        <p class="project-tile-p">Quakely.io sends alerts up to 15 seconds before a major earthquakes reaches the surface. Human Centered Design drove the features in this MVP.</p>
+                        <p class="project-tile-p">Quakely.io sends alerts up to 15 seconds before a major earthquake reaches the surface and offers help after the event.</p>
                         <span class="project-role">
                             <ul>
-                                <li><a href="#">#IA</a></li>
-                                <li><a href="#">#UX</a></li>
-                                <li><a href="#">#mentoring</a></li>
+                                <li>#IA</li>
+                                <li>#UX</li>
+                                <li>#mentoring</li>
                             </ul>
                         </span>
                         </div><!--project-tile-content-->
@@ -171,9 +171,9 @@ Template Name: Frontpage
                         <p class="project-tile-p">In this project we improved the booking experience and consistency across all devices and consolidated similar tasks.</p>
                         <span class="project-role">
                             <ul>
-                                <li><a href="#">#UX</a></li>
-                                <li><a href="#">#specs</a></li>
-                                <li><a href="#">#prototype</a></li>
+                                <li>#UX</li>
+                                <li>#specs</li>
+                                <li>#prototype</li>
                             </ul>
                         </span>
                         </div><!--project-tile-content-->
@@ -188,19 +188,19 @@ Template Name: Frontpage
             <div class="container">
             <div class="row">
             
-            <h1 class="section-title">Teaching & Seminars</h1>
-            <span class="col-md-12 col-lg-8 col-lg-push-2 section-intro">I’m an adjunct faculty member at Lake Washington Institute of Technology, leading students through intro and medium level design courses. I aim to update the material I’m teaching with every quarter as changes happen in the industry. There are several weeks each quarter where I focus on career development and freelance practices.</span>
+            <h1 class="section-title">Professor Savin</h1>
+            <!--<span class="col-md-12 col-lg-8 col-lg-push-2 section-intro">I’m an adjunct faculty member at Lake Washington Institute of Technology, leading students through intro and medium level design courses. I aim to update the material I’m teaching with every quarter as changes happen in the industry. There are several weeks each quarter where I focus on career development and freelance practices.</span>-->
             </div>
 
             <div class="lw-divider">
-            <div class="col-sm-3 col-md-4 lw-spacer"></div>
-            <div class="col-sm-6 col-md-4 lwlogo"><img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/LWTechLogo.jpg" /></div>
-            <div class="col-sm-3 col-md-4 lw-spacer"></div>
+            <div class="col-sm-0 col-md-4 lw-spacer"></div>
+            <div class="col-sm-12 col-md-4 lwlogo"><img src="<?php echo site_url(); ?>/wp-content/themes/ts2017/assets/images/LWTechLogo.jpg" /></div>
+            <div class="col-sm-0 col-md-4 lw-spacer"></div>
             </div>
 
             <div class="row class-tiles">
                     
-                    <div id="dsgn153" class="col-xs-12 col-sm-6 col-md-4 project-tile">
+                    <div id="dsgn153" class="col-xs-12 col-sm-6 col-md-4 project-tile" onclick="window.location.href = ('http://tylersavin.com/introduction-to-web-mobile-design/');">
                     <div class="project-tile-content">
                         <span class="tile-company-name">DSGN 153</span>
                         <span class="project-tile-title">Intro to Web & Mobile Design</span>
@@ -212,7 +212,7 @@ Template Name: Frontpage
                         </div><!--project-tile-content-->
                     </div>
 
-                    <div id="dsgn153" class="col-xs-12 col-sm-6 col-md-4 project-tile">
+                    <div id="dsgn153" class="col-xs-12 col-sm-6 col-md-4 project-tile" onclick="window.location.href = ('http://tylersavin.com/managing-creativity/');">
                     <div class="project-tile-content">
                         <span class="tile-company-name">APDZ 331</span>
                         <span class="project-tile-title">Managing Creativity</span>
@@ -238,14 +238,9 @@ Template Name: Frontpage
 
                 </div>
 
-                <div class="seminars-cta">
-                    <span class="seminars-title">Group Seminars</span>
-                    <span class="seminars-desc">I’m also availble to lead seminars using any of the lesson plans above.</span>
-                    <button class="btn-primary">Set Up Seminar</button>
-                </div>
-
             </div>
 
         </section>
+
     </div>
 <?php get_footer(); ?>

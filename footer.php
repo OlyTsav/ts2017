@@ -14,13 +14,15 @@
 	$(document).ready(function(){
 
 	$('.variableLike').typed({
-        strings: ["UX Designer", "coder", "professor", "freelancer", "VR enthusiast", "team player", "gamer", "gear head", "Dragonborne Fighter", "Motorcyclist"],
+        strings: ["Sr. Designer", "coder", "professor", "freelancer", "VR enthusiast", "team player", "gamer", "gear head", "dragonslayer"],
         typeSpeed: 50,
         startDelay: 1000,
         backSpeed: 50,
         backDelay: 1750,
         loop: true,
 	});
+
+  $(".wp-caption").removeAttr('style');
 
 //window.onscroll = function() {scrollProgressFunction()};
 
@@ -32,6 +34,15 @@
 //}
 
 	});
+ $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 90) {
+        $("nav").addClass("scrolling");
+    } else {
+        $("nav").removeClass("scrolling");
+    }
+});
 </script>
 
 <?php wp_footer(); ?>

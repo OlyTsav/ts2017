@@ -7,7 +7,7 @@ Template Name: Project Page
       <!-- START THE FEATURETTES -->
 <div class="container project-container">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-3">
+		<div class="col-xs-12 col-sm-12 col-md-3 sidebar-container">
 		<?php /* Widgetized sidebar */
 if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('project-sidebar') ) : ?><?php endif; ?>
 		</div>
@@ -17,6 +17,11 @@ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('project-sidebar') 
 		<div class="row">
 		<div class="col-xs-12">
 			<h1 class="post-title"><?php the_title(); ?></h1>
+			<ul class="company-year">
+				<li class="project-company"><?php the_field('company'); ?></li>
+				<li class="project-work-year"><?php the_field('work-year'); ?></li>
+			</ul>
+			<?php the_tags( '<ul class="post-tags"><li>', '</li><li>', '</li></ul>' ); ?>
 		</div>
 		<div class="project-content col-xs-12">
 		<?php the_content() ?>

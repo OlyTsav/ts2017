@@ -50,6 +50,15 @@ if ( function_exists('register_sidebar') ){
 }
 if ( function_exists('register_sidebar') ){
     register_sidebar(array(
+        'name' => 'tag-sidebar',
+        'before_widget' => '<div class="page-widget">',
+        'after_widget' => '</div><div style="clear:both"></div>',
+        'before_title' => '<div class="page-widget-name">',
+        'after_title' => '</div>',
+));
+}
+if ( function_exists('register_sidebar') ){
+    register_sidebar(array(
         'name' => 'project-sidebar',
         'before_widget' => '<div class="page-widget">',
         'after_widget' => '</div><div style="clear:both"></div>',
@@ -77,12 +86,12 @@ function filter_ptags_on_images($content){
 }
 add_filter('the_content', 'filter_ptags_on_images');
 function custom_excerpt_length( $length ) {
-	return 40;
+	return 35;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
-function new_excerpt_more( $more ) {
-	return '...<div style="clear:both;"></div><a class="read-more" href="'. get_permalink( get_the_ID() ) . '">Read More &raquo;</a>';
-}
+//function new_excerpt_more( $more ) {
+//	return '...<div style="clear:both;"></div><a class="read-more" href="'. get_permalink( get_the_ID() ) . '">Read More &raquo;</a>';
+//}
 add_filter( 'post_thumbnail_html', 'remove_width_attribute', 10 );
 add_filter( 'image_send_to_editor', 'remove_width_attribute', 10 );
 
